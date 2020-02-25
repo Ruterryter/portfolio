@@ -1,0 +1,72 @@
+font-family: 'Montserrat', ;
+font-family: 'Roboto', ;
+
+header {
+
+}
+
+h1 {
+  font-family:'Montserrat', 'bold';
+  font-size: 49px;
+  color: #FFFF;
+
+}
+
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+  color: #000000;
+  font-family: "Montserrat";
+}
+
+.overlay-header {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.summary {
+background-color: #F4F4F4;
+}
+
+
+.tech {
+  background-color: #FFFF;
+
+}
+
+.featured-projects {
+
+}
+
+.other-projects {
+
+}
+
+.my-thoughts {
+
+}
+
+.skills {
+
+}
+
+.links {
+
+}
+
+footer {
+
+}
