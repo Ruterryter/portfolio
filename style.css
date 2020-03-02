@@ -1,7 +1,13 @@
-header img{
-  position: relative;
-  width: auto;
-  height: 508px;
+header {
+  background-image: url("./assets/mobile-header-img.png");
+  height:508px;
+  padding: 0px 36px;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -21,8 +27,10 @@ h2 {
   font-weight: bold;
   color: #ffff;
   background-color:#a62941;
+  font-size: 22px;
   padding: 2px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h3 {
@@ -30,6 +38,7 @@ h3 {
   font-weight: 700;
   color: #a62941;
   text-transform: uppercase;
+  text-align: left;
 }
 
 h4 {
@@ -64,54 +73,56 @@ p {
   font-family: "Montserrat";
 }
 
-.header-overlay {
-  position: absolute;
-  text-align: left;
-  bottom: 182px;
-  margin-left: 41px;
-}
-
-.header-icons {
-  position: absolute;
-  top: 105px;
-  left: 210px;
-}
 
 .header-icons img {
   width: 39px;
   height: 39px;
+  border: #FFFF solid 3px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 40px;
+  /*bilden ska vara 19px ramen runt 39 */
 }
 
-.summary {
-background-color: #F4F4F4;
+
+.header-overlay-text {
+  align-self: flex-start;
 }
 
+.profile-picture {
+  border: #FFFF solid 3px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: -10px;
 
-.tech {
+}
+.portfolio-section{
+  padding: 10px 36px;
   background-color: #FFFF;
-
 }
 
-.featured-projects {
-
+.portfolio-section-grey{
+  padding: 10px 36px;
+  background-color:#F4F4F4;
 }
 
-.other-projects {
 
-}
-
-.my-thoughts {
-
-}
-
-.skills {
-
-}
-
-.links {
-
+.tags {
+  display: block;
+  width: fit-content;
+  background-color: #FDDFE7;
+  font-family:'Roboto';
+  font-weight: 'regular';
+  font-size: 9px;
 }
 
 footer {
+padding: 10px 36px;
+background-color: #7c8377;
+}
 
+h2 footer {
+  font-size: 21px;
+  color: #FFFF;
 }
