@@ -10,6 +10,11 @@ header {
   margin-bottom: 10px;
 }
 
+a {
+  align-self: center;
+  text-decoration: none;
+}
+
 h1 {
   font-family:'Montserrat';
   font-weight:bold;
@@ -31,6 +36,7 @@ h2 {
   padding: 2px;
   text-transform: uppercase;
   text-align: center;
+  margin: 35px auto 25px auto;
 }
 
 h3 {
@@ -39,16 +45,18 @@ h3 {
   color: #a62941;
   text-transform: uppercase;
   text-align: left;
+  margin:auto;
 }
 
-h4 {
-font-size: 24px;
-text-align: left;
-font-family:'Montserrat';
-font-weight: 700;
-color: #FFFF;
-margin-top: 5px;
+header h4 {
+  font-size: 24px;
+  text-align: left;
+  font-family:'Montserrat';
+  font-weight: 700;
+  color: #FFFF;
+  margin-top: 5px;
 }
+
 
 h5 {
   display: inline;
@@ -60,12 +68,13 @@ h5 {
 }
 
 h6 {
-display: inline;
-font-family: 'Roboto';
-font-size: 13px;
-color: #FFFF;
-text-transform: uppercase;
-font-weight: 700;
+  display: inline;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #FFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 10px;
 }
 
 p {
@@ -95,34 +104,121 @@ p {
   width: 150px;
   height: 150px;
   margin-bottom: -10px;
-
 }
+
 .portfolio-section{
+  display: flex;
+  flex-direction: column;
   padding: 10px 36px;
   background-color: #FFFF;
 }
 
 .portfolio-section-grey{
+  display: flex;
+  flex-direction: column;
   padding: 10px 36px;
   background-color:#F4F4F4;
 }
 
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.projects-img {
+  max-width: 300px;
+  opacity:0.38;
+}
+
+.picture-text {
+  position: absolute; 
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  color: #FDDFE7;
+  text-transform: uppercase;
+}
 
 .tags {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tags h4 {
   display: block;
   width: fit-content;
   background-color: #FDDFE7;
   font-family:'Roboto';
   font-weight: 'regular';
   font-size: 9px;
+  margin: 10px 5px 10px 5px;
+  text-align: center;
+}
+
+.date {
+  font-family: 'Roboto';
+  color: #a62941;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.skills {
+  display: flex;
+}
+
+.code-skills {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.toolbox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: auto
+}
+
+.skills h4 {
+  display: flex;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #a62941;
+  text-transform: none;
+  margin: 3px auto 3px auto;
+}
+
+.skills h5 {
+  display: flex;
+  font-family: 'roboto';
+  font-size: 17px;
+  color: #000000;
+  margin: 3px auto 3px auto;
 }
 
 footer {
 padding: 10px 36px;
 background-color: #7c8377;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-h2 footer {
+footer h2 {
   font-size: 21px;
   color: #FFFF;
+  
+}
+
+footer a {
+  color: #FFFF;
+  font-family: Roboto;
+  font-size: 17px;
 }
