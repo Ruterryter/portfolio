@@ -48,7 +48,7 @@ h3 {
   margin:auto;
 }
 
-header h4 {
+h4 {
   font-size: 24px;
   text-align: left;
   font-family:'Montserrat';
@@ -82,15 +82,28 @@ p {
   font-family: "Montserrat";
 }
 
-
-.header-icons img {
-  width: 39px;
-  height: 39px;
-  border: #FFFF solid 3px;
-  border-radius: 50%;
-  padding: 5px;
+.icons {
   margin-top: 40px;
-  /*bilden ska vara 19px ramen runt 39 */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.circles{
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img {
+  width: 19px;
+  height: 19px;
+  padding: 8px;
 }
 
 
@@ -105,6 +118,29 @@ p {
   height: 150px;
   margin-bottom: -10px;
 }
+
+/* Decoration before first p
+.decoration {
+  display: flex;
+  align-items: center;
+  float: left;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: #a62941;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #a62941;
+  margin-left: -5px;
+} */
 
 .portfolio-section{
   display: flex;
@@ -149,17 +185,18 @@ p {
 }
 
 .tags h4 {
-  display: block;
   width: fit-content;
   background-color: #FDDFE7;
   font-family:'Roboto';
-  font-weight: 'regular';
+  font-weight: 500;
   font-size: 9px;
   margin: 10px 5px 10px 5px;
   text-align: center;
+  color:black;
 }
 
 .date {
+  display: inline;
   font-family: 'Roboto';
   color: #a62941;
   font-size: 17px;
@@ -168,8 +205,38 @@ p {
   text-transform: uppercase;
 }
 
+.preview {
+  display: inline;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: left;
+}
+
+.thoughts img {
+max-width: 300px;
+margin-bottom: 25px;
+}
+
+.thoughts h4{
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: auto;
+}
+
+.thoughts p {
+  margin-top: auto;
+}
+
+.more-thoughts{
+margin: 10px 0 10px 0;
+}
+
 .skills {
   display: flex;
+  flex-wrap: wrap; 
 }
 
 .code-skills {
@@ -183,6 +250,14 @@ p {
   flex-direction: column;
   width: 50%;
   margin-right: auto
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  
 }
 
 .skills h4 {
@@ -201,14 +276,33 @@ p {
   font-size: 17px;
   color: #000000;
   margin: 3px auto 3px auto;
+  text-align: center;
+}
+
+.portfolio-section-pink{
+  padding: 40px 36px;
+  background-color: #a62941;
+}
+
+.icons-more {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+
+.icons-more img {
+  width: 19px;
+  height: 19px;
+  padding: 8px;
 }
 
 footer {
-padding: 10px 36px;
-background-color: #7c8377;
+padding: 20px 36px;
+background-color:#FFFF;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-bottom: 20px;
 }
 
 footer h2 {
@@ -218,7 +312,7 @@ footer h2 {
 }
 
 footer a {
-  color: #FFFF;
+  color: #a62941;
   font-family: Roboto;
   font-size: 17px;
 }
