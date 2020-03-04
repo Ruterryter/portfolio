@@ -80,6 +80,7 @@ h6 {
 p {
   color: #000000;
   font-family: "Montserrat";
+  text-align: center;
 }
 
 .icons {
@@ -106,7 +107,6 @@ p {
   padding: 8px;
 }
 
-
 .header-overlay-text {
   align-self: flex-start;
 }
@@ -119,7 +119,7 @@ p {
   margin-bottom: -10px;
 }
 
-/* Decoration before first p
+/* Decoration before first p can't get i to be placed where it should be
 .decoration {
   display: flex;
   align-items: center;
@@ -155,6 +155,10 @@ p {
   padding: 10px 36px;
   background-color:#F4F4F4;
 }
+
+.portfolio-section-grey p{
+  text-align: left;
+ }
 
 .wrapper {
   position: relative;
@@ -236,9 +240,10 @@ margin-bottom: 25px;
 
 .thoughts p {
   margin-top: auto;
+  text-align: left;
 }
 
-.more-thoughts{
+.more-thoughts {
 margin: 10px 0 10px 0;
 }
 
@@ -265,7 +270,6 @@ margin: 10px 0 10px 0;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  
 }
 
 .skills h4 {
@@ -316,7 +320,6 @@ margin-bottom: 20px;
 footer h2 {
   font-size: 21px;
   color: #FFFF;
-  
 }
 
 footer a {
@@ -373,14 +376,32 @@ footer a {
   align-self: flex-end;
   } 
 
-  .portfolio-section p {
-  text-align: center;
+  .portfolio-section{
+    padding: 20px 108px;
+  }
+
+  .portfolio-section-grey {
+    padding: 20px 108px;
+  }
+
+  .portfolio-section-grey p{
+   text-align: left;
   }
 
   .projects {
     display: flex;
     flex-direction: column;
     margin: auto;
+  }
+
+  .projects p, .other-projects p{
+    text-align: left;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+
+  .tags {
+    align-self: flex-start;
   }
 
   .tags h4{
@@ -439,7 +460,6 @@ footer a {
     font-size: 48px;
   }
 
-
   h4 {
     font-size: 50px;
   }
@@ -448,8 +468,36 @@ footer a {
     font-size: 30px;
   }
 
-  .portfolio-section p {
-    text-align: center;
+  /* This part am I struggling with to get like the design guide, please advise on how to do it better*/
+  .projects {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+  }
+
+  .projects a{
+    align-items: flex-start;
+    margin: 0 20px 0 0;
+  }
+
+  .projects h3 {
+    margin: 0;
+  }
+
+  .projects p {
+    font-size: 25px;
+  }
+
+  .other-projects {
+    width: 65%;
+  }
+
+  .tags {
+    flex-wrap: nowrap;
+    align-self: flex-start;
   }
 
   .tags h4{
@@ -470,5 +518,4 @@ footer a {
     width: auto;
     margin: auto;
   }
-
 }
