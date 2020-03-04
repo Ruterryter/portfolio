@@ -492,7 +492,14 @@ footer a {
   }
 
   .other-projects {
-    width: 65%;
+    display: block;
+    margin: auto;
+  }
+
+  .other-projects a{
+    display: block;
+    text-decoration: underline;
+    color: black;
   }
 
   .tags {
