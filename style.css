@@ -477,7 +477,7 @@ footer a {
     margin: auto;
   }
 
-  .projects a{
+  .projects a {
     align-items: flex-start;
     margin: 0 20px 0 0;
   }
@@ -490,15 +490,20 @@ footer a {
     font-size: 25px;
   }
 
-  .other-projects {
+  .other-projects, .more-thoughts {
     display: block;
     margin: auto;
   }
 
-  .other-projects a{
+  .more-thoughts p {
+    margin: 0 20px 0 0;
+  }
+
+  .other-projects a, .more-thoughts a{
     display: inline-block;
     text-decoration: underline;
     color: black;
+    margin: 0 20px 0 0;
   }
 
   .other-projects h3{
