@@ -468,7 +468,6 @@ footer a {
     font-size: 30px;
   }
 
-  /* This part am I struggling with to get like the design guide, please advise on how to do it better*/
   .projects {
     display: flex;
     flex-direction: row;
@@ -497,9 +496,22 @@ footer a {
   }
 
   .other-projects a{
-    display: block;
+    display: inline-block;
     text-decoration: underline;
     color: black;
+  }
+
+  .other-projects h3{
+    text-align: center;
+    margin: 40px 0 20px 0;
+  }
+
+  span {
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #a62941;
+    font-size: 25px;
+    text-transform: uppercase;
   }
 
   .tags {
