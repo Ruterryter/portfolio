@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: #844387;
+  color: rgb(132,67,135);
   text-decoration: underline;
 }
 
@@ -24,7 +24,7 @@ h1 {
   font-family:'Montserrat';
   font-weight:bold;
   font-size: 40px;
-  color: #FFFF;
+  color: rgb(255,255,255);
   letter-spacing: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -35,8 +35,8 @@ h2 {
   width: fit-content;
   font-family:'Montserrat';
   font-weight: bold;
-  color: #ffff;
-  background-color:#a62941;
+  color:rgb(255,255,255);
+  background-color:rgb(166,41,65);
   font-size: 22px;
   padding: 2px;
   text-transform: uppercase;
@@ -47,7 +47,7 @@ h2 {
 h3 {
   font-family:'Montserrat';
   font-weight: 700;
-  color: #a62941;
+  color: rgb(166,41,65);
   text-transform: uppercase;
   text-align: left;
   margin:auto;
@@ -58,7 +58,7 @@ h4 {
   text-align: left;
   font-family:'Montserrat';
   font-weight: 700;
-  color: #FFFF;
+  color: rgb(255,255,255);
   margin-top: 5px;
 }
 
@@ -66,7 +66,7 @@ h5 {
   display: inline;
   font-family: 'Roboto';
   font-size: 13px;
-  color: #FFFF;
+  color: rgb(255,255,255);
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -75,14 +75,14 @@ h6 {
   display: inline;
   font-family: 'Roboto';
   font-size: 13px;
-  color: #FFFF;
+  color:rgb(255,255,255);
   text-transform: uppercase;
   font-weight: 700;
   margin-left: 10px;
 }
 
 p {
-  color: #000000;
+  color: rgb(0,0,0);
   font-family: "Montserrat";
   text-align: center;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 .circles{
-  border: 3px solid white;
+  border: 3px solid rgb(255,255,255);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -116,7 +116,7 @@ p {
 }
 
 .profile-picture {
-  border: #FFFF solid 3px;
+  border: rgb(255,255,255) solid 3px;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -153,14 +153,14 @@ p {
   display: flex;
   flex-direction: column;
   padding: 10px 36px;
-  background-color: #FFFF;
+  background-color:rgb(255,255,255);
 }
 
 .portfolio-section-grey{
   display: flex;
   flex-direction: column;
   padding: 10px 36px;
-  background-color:#F4F4F4;
+  background-color:rgb(244,244,244);
 }
 
 .portfolio-section-grey p{
@@ -172,7 +172,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#000000;
+  background-color:rgb(0,0,0);
   max-width: 300px;
 }
 
@@ -186,7 +186,7 @@ p {
   font-size: 16px;
   font-weight: 700;
   font-family: 'Montserrat';
-  color: #FDDFE7;
+  color: rgb(253,223,231);
   text-transform: uppercase;
 }
 
@@ -198,19 +198,19 @@ p {
 
 .tags h4 {
   width: fit-content;
-  background-color: #FDDFE7;
+  background-color: rgb(253,223,231);
   font-family:'Roboto';
   font-weight: 500;
   font-size: 9px;
   margin: 10px 5px 10px 5px;
   text-align: center;
-  color:black;
+  color:rgb(0,0,0);
 }
 
 .date {
   display: inline;
   font-family: 'Roboto';
-  color: #a62941;
+  color: rgb(166,41,65);
   font-size: 17px;
   text-align: left;
   font-weight: 500;
@@ -241,7 +241,7 @@ margin-bottom: 25px;
   font-family: 'Roboto';
   font-size: 21px;
   font-weight: 700;
-  color: #000000;
+  color: rgb(0,0,0);
   margin-bottom: auto;
 }
 
@@ -284,7 +284,7 @@ margin: 10px 0 10px 0;
   font-size: 17px;
   font-family: 'Roboto';
   font-weight: 700;
-  color: #a62941;
+  color: rgb(166,41,65);
   text-transform: none;
   margin: 3px auto 3px auto;
 }
@@ -293,14 +293,14 @@ margin: 10px 0 10px 0;
   display: flex;
   font-family: 'roboto';
   font-size: 17px;
-  color: #000000;
+  color: rgb(0,0,0);
   margin: 3px auto 3px auto;
   text-align: center;
 }
 
 .portfolio-section-pink{
   padding: 40px 36px;
-  background-color: #a62941;
+  background-color: rgb(166,41,65);
 }
 
 .icons-more {
@@ -317,7 +317,7 @@ margin: 10px 0 10px 0;
 
 footer {
 padding: 20px 36px;
-background-color:#FFFF;
+background-color:rgb(255,255,255);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -326,7 +326,7 @@ margin-bottom: 20px;
 
 footer h2 {
   font-size: 21px;
-  color: #FFFF;
+  color: rgb(255,255,255);
 }
 
 footer a {
@@ -521,7 +521,7 @@ footer a {
   span {
     font-family: 'Roboto';
     font-weight: 700;
-    color: #a62941;
+    color: rgb(166,41,65);
     font-size: 25px;
     text-transform: uppercase;
   }
