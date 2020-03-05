@@ -118,7 +118,8 @@ p {
   margin-bottom: -10px;
 }
 
-/* Decoration before first p can't get i to be placed where it should be
+
+/* Can't get this part to work and be placed were it should. I looked at other peoples solutions but don't understand why they use empty <p></p> and then has the text outside of it. Please advise.
 .decoration {
   display: flex;
   align-items: center;
@@ -139,7 +140,9 @@ p {
   border-radius: 50%;
   background: #a62941;
   margin-left: -5px;
-} */
+} 
+
+*/
 
 .portfolio-section{
   display: flex;
