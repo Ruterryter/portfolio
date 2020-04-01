@@ -12,11 +12,7 @@ header {
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: rgb(132,67,135);
-  text-decoration: underline;
+  color: black;
 }
 
 h1 {
@@ -166,17 +162,25 @@ p {
   text-align: left;
  }
 
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 550px;
+} 
+
 .wrapper {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color:rgb(0,0,0);
-  max-width: 300px;
+  width: 100%;
 }
 
 .projects-img {
-  max-width: 300px;
+  width: 100%;
   opacity:0.38;
 }
 
@@ -188,6 +192,25 @@ p {
   color: rgb(253,223,231);
   text-transform: uppercase;
 }
+
+.project-description {
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.featured-project, .link-arrows {
+  color: rgb(166,41,65);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project-about-text {
+  color: black;
+  font-weight: 500;
+  font-family:'Montserrat'; 
+  text-transform: none;
+}
+
 
 .tags {
   display:flex;
@@ -201,9 +224,10 @@ p {
   font-family:'Roboto';
   font-weight: 500;
   font-size: 9px;
-  margin: 10px 5px 10px 5px;
   text-align: center;
   color:rgb(0,0,0);
+  margin: 20px 4px 9px 0;
+  padding: 4px 8px;
 }
 
 .date {
@@ -236,12 +260,12 @@ max-width: 300px;
 margin-bottom: 25px;
 }
 
-.thoughts h4{
-  font-family: 'Roboto';
-  font-size: 21px;
-  font-weight: 700;
-  color: rgb(0,0,0);
-  margin-bottom: auto;
+.thoughts h4 {
+font-family: 'Roboto';
+font-size: 21px;
+font-weight: 700;
+color: rgb(0,0,0);
+margin-bottom: auto;
 }
 
 .thoughts p {
@@ -251,6 +275,8 @@ margin-bottom: 25px;
 
 .more-thoughts {
 margin: 10px 0 10px 0;
+color: rgb(0,0,0);
+font-family: "Montserrat";
 }
 
 .skills {
@@ -315,12 +341,12 @@ margin: 10px 0 10px 0;
 }
 
 footer {
-padding: 20px 36px;
-background-color:rgb(255,255,255);
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 20px;
+  padding: 20px 36px;
+  background-color:rgb(255,255,255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 footer h2 {
@@ -351,7 +377,7 @@ footer a {
     font-size: 48px;
   }
 
-  h3{
+  h3 {
     font-size: 38px;
   }
 
@@ -365,13 +391,12 @@ footer a {
   }
 
   p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   a {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .header-text {
@@ -396,9 +421,15 @@ footer a {
 
   .projects {
     display: flex;
-    flex-direction: column;
-    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
+
+  .projects a {
+    width: 45%;
+    text-decoration: none;
+  }
+
 
   .projects p, .other-projects p{
     text-align: left;
@@ -481,6 +512,7 @@ footer a {
     justify-content: space-between;
     width: 65%;
     margin: auto;
+    max-width: 1088px;
   }
 
   .projects a {
@@ -492,7 +524,7 @@ footer a {
     margin: 0;
   }
 
-  .projects p {
+  .projects-about-text {
     font-size: 25px;
   }
 
@@ -507,12 +539,12 @@ footer a {
 
   .other-projects a, .more-thoughts a{
     display: inline-block;
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     margin: 0 20px 0 0;
   }
 
-  .other-projects h3{
+  .other-projects h3 {
     text-align: center;
     margin: 40px 0 20px 0;
   }
