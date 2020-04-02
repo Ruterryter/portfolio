@@ -204,6 +204,10 @@ p {
   text-transform: uppercase;
 }
 
+.link-arrows {
+  text-decoration: underline;
+}
+
 .project-about-text {
   color: black;
   font-weight: 500;
