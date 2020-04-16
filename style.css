@@ -353,6 +353,10 @@ footer {
   margin-bottom: 20px;
 }
 
+footer p {
+  margin: auto;
+}
+
 footer h2 {
   font-size: 21px;
   color: rgb(255,255,255);
@@ -362,6 +366,9 @@ footer a {
   color: #a62941;
   font-family: Roboto;
   font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -411,7 +418,7 @@ footer a {
   align-self: flex-end;
   } 
 
-  .portfolio-section{
+  .portfolio-section {
     padding: 20px 108px;
   }
 
@@ -435,7 +442,7 @@ footer a {
   }
 
 
-  .projects p, .other-projects p{
+  .projects p, .other-projects p {
     text-align: left;
     font-size: 25px;
     margin: 0 auto;
@@ -445,16 +452,16 @@ footer a {
     align-self: flex-start;
   }
 
-  .tags h4{
+  .tags h4 { 
     font-size: 16px;
   }
 
-  .thoughts h4{
+  .thoughts h4 {
     font-size: 30px;
   }
 
 
- .skills h4{
+ .skills h4 {
    font-size: 38px;
    text-transform: uppercase;
  }
@@ -468,7 +475,7 @@ footer a {
   font-size: 25px;
   }
 
-  footer h2{
+  footer h2 {
     font-size: 48px;
   }
 
@@ -583,5 +590,10 @@ footer a {
   .more {
     width: auto;
     margin: auto;
+  }
+
+  .icons-more a:hover {
+    transition: transform .3s, filter .3s ease-out;
+    transform: scale(1.1);
   }
 }
