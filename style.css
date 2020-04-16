@@ -314,7 +314,7 @@ font-family: "Montserrat";
   font-family: 'Roboto';
   font-weight: 700;
   color: rgb(166,41,65);
-  text-transform: none;
+  text-transform: uppercase;
   margin: 3px auto 3px auto;
 }
 
@@ -378,7 +378,7 @@ footer a {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   h3 {
@@ -455,7 +455,7 @@ footer a {
 
 
  .skills h4{
-   font-size: 50px;
+   font-size: 38px;
    text-transform: uppercase;
  }
 
